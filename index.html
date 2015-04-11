@@ -9,11 +9,11 @@
       if (soundId) document.getElementById(soundId).play();
       var text = document.getElementById((soundId) + "text");
   text.style.fontWeight = 'bold';
-  var x = document.getElementById("mytable").getElementById("td1");
+  var x = document.getElementById("mytable").getElementsByTagName("td");
       x[0].innerHTML = "528";
       x[0].style.backgroundColor = "yellow";
       x[0].style.fontWeight = 'bold';
-  }
+      
 
   document.onkeyup = function(e) {
       var soundId = sounds[e.keyCode];
