@@ -2,17 +2,16 @@
   <head>
     <script type="text/javascript" >
 
-    function btnClick() {
-      var x = document.getElementById("mytable").getElementsByTagName("td");
-      x[0].innerHTML = "528";
-      x[0].style.backgroundColor = "yellow";
-  }
+
 
   document.onkeydown = function(e) {
       var soundId = sounds[e.keyCode];
       if (soundId) document.getElementById(soundId).play();
       var text = document.getElementById((soundId) + "text");
   text.style.fontWeight = 'bold';
+      var x = document.getElementById("mytable").getElementsByTagName("td");
+      x[0].innerHTML = "528";
+      x[0].style.backgroundColor = "yellow";
   }
 
   document.onkeyup = function(e) {
@@ -61,6 +60,7 @@
   </div>
 
   <audio src="tones/solfeg/528.wav"  id="528"></audio><p id= "528text"></p><br>
+
 
   </body>
 
