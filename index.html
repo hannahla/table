@@ -9,9 +9,9 @@
       if (soundId) document.getElementById(soundId).play();
       var text = document.getElementById((soundId) + "text");
   text.style.fontWeight = 'bold';
-  var x = document.getElementById("mytable").rows[i].cells[i];
+  var x = document.getElementById("mytable").getElementById("td1");
       x[0].innerHTML = "528";
-      x[i].style.backgroundColor = "yellow";
+      x[0].style.backgroundColor = "yellow";
       x[0].style.fontWeight = 'bold';
   }
 
@@ -55,8 +55,8 @@
   <div>
     <table id = "mytable" width="100%" border="1" cellpadding="2" cellspacing="2" style="background-color: #000000;">
       <tr valign="top">
-      <td class = "td"><br /> 528 </td>
-      <td class = "td"><br /> 264 </td>
+      <td id = "td1" class = "td"><br /> 528 </td>
+      <td id = "td2" class = "td"><br /> 264 </td>
       </tr>
       <tr valign="top">
       <td class = "td"><br />  </td>
