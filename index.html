@@ -21,16 +21,74 @@
       document.getElementById(soundId).load();
       var text = document.getElementById((soundId) + "text");
   text.style.fontWeight = '';
-    var x = document.getElementById("mytable").getElementsByTagName("td");
-    x[0].innerHTML = "528";
-    x[0].style.backgroundColor = "white";
-    x[0].style.fontWeight = '';
+    var x = document.getElementById((soundId) + "table");
+    x.innerHTML = (soundId);
+    x.style.backgroundColor = "white";
+    x.style.fontWeight = '';
   }
 
 
   var sounds = {
-  39 : '528',
-  40 : '264'
+  192 : '1782',
+  49 : '1518',
+  50 : '1254',
+  51 : '1980',
+  52 : '1452',
+  53 : '1848',
+  54 : '1584',
+  55 : '2112',
+  56 : '1320',
+  57 : '1188',
+  48 : '1716',
+  189 : '1122',
+  187 : '1386',
+  46 : '1650',
+
+  81 : '627',
+  87 : '990',
+  69 : '726',
+  82 : '924',
+  84 : '792',
+  89 : '1056',
+  85 : '660',
+  73 : '594',
+  79 : '858',
+  80 : '561',
+  219 : '693',
+  221 : '1759',
+
+  65 : '313.5',
+  83 : '495',
+  68 : '363',
+  70 : '462',
+  71 : '396',
+  72 : '528',
+  74 : '330',
+  75 : '297',
+  76 : '429',
+  186 : '280.5',
+  222 : '346.5',
+  13 : '379.5',
+
+  16 : '156.75',
+  90 : '247.5',
+  88 : '181.5',
+  67 : '231',
+  86 : '198',
+  66 : '264',
+  78 : '165',
+  77 : '148.5',
+  188 : '214.5',
+  190 : '140.25',
+
+  17 : '115.5',
+  18 : '82.5',
+  224 : '99',
+  32 : '132',
+  37 : '74.25',
+  38 : '90.75',
+  40 : '107.25',
+  39 : '125.75',
 
 }
     </script>
@@ -55,19 +113,154 @@
   <div>
     <table id = "mytable" width="100%" border="1" cellpadding="2" cellspacing="2" style="background-color: #000000;">
       <tr valign="top">
-      <td id="528table" class = "td"><br /> 528 </td>
-      <td id="264table" class = "td"><br /> 264 </td>
+        <td id="1782table" class = "td"><br /> 1782 </td>
+        <td id="1518table" class = "td"><br /> 1518 </td>
+        <td id="1254table" class = "td"><br /> 1254 </td>
+        <td id="1980table" class = "td"><br /> 1980 </td>
+        <td id="1452table" class = "td"><br /> 1452 </td>
+        <td id="1848table" class = "td"><br /> 1848 </td>
+        <td id="1584table" class = "td"><br /> 1584 </td>
+        <td id="2112table" class = "td"><br /> 2112 </td>
+        <td id="1320table" class = "td"><br /> 1320 </td>
+        <td id="1188table" class = "td"><br /> 1188 </td>
+        <td id="1716table" class = "td"><br /> 1716 </td>
+        <td id="1122table" class = "td"><br /> 1122 </td>
+        <td id="1386table" class = "td"><br /> 1386 </td>
+        <td id="1650table" class = "td"><br /> 1650 </td>
+        <td id="1650blank" class = "td"><br /> 1650blank </td>
       </tr>
       <tr valign="top">
-      <td class = "td"><br />  </td>
-      <td class = "td"><br />  </td>
+        <td id="tabblank" class = "td"><br /> tabblank </td>
+        <td id="tabblank2" class = "td"><br /> tabblank2 </td>
+        <td id="627table" class = "td"><br /> 627 </td>
+        <td id="990table" class = "td"><br /> 990 </td>
+        <td id="726table" class = "td"><br /> 726 </td>
+        <td id="924table" class = "td"><br /> 924 </td>
+        <td id="792table" class = "td"><br /> 792 </td>
+        <td id="1056table" class = "td"><br /> 1056 </td>
+        <td id="660table" class = "td"><br /> 660 </td>
+        <td id="594table" class = "td"><br /> 594 </td>
+        <td id="858table" class = "td"><br /> 858 </td>
+        <td id="561table" class = "td"><br /> 561 </td>
+        <td id="693table" class = "td"><br /> 693 </td>
+        <td id="759table" class = "td"><br /> 759 </td>
+        <td id="blankline" class = "td"><br /> blankline </td>
+      </tr>
+      <tr valign="top">
+        <td id="blankcaps" class = "td"><br /> blankcaps </td>
+        <td id="blankcaps2" class = "td"><br /> blankcaps2 </td>
+        <td id="313.5table" class = "td"><br /> 313.5 </td>
+        <td id="495table" class = "td"><br /> 495 </td>
+        <td id="363table" class = "td"><br /> 363 </td>
+        <td id="462table" class = "td"><br /> 462 </td>
+        <td id="396table" class = "td"><br /> 396 </td>
+        <td id="528table" class = "td"><br /> 528 </td>
+        <td id="330table" class = "td"><br /> 330 </td>
+        <td id="297table" class = "td"><br /> 297 </td>
+        <td id="429table" class = "td"><br /> 429 </td>
+        <td id="280.5table" class = "td"><br /> 280.5 </td>
+        <td id="346.5table" class = "td"><br /> 346.5 </td>
+        <td id="379.5table" class = "td"><br /> 379.5 </td>
+        <td id="379.5blank" class = "td"><br /> 379.5blank </td>
+      </tr>
+      <tr valign="top">
+        <td id="156.75blank" class = "td"><br /> 156.75blank </td>
+        <td id="156.75table" class = "td"><br /> 156.75 </td>
+        <td id="247.5table" class = "td"><br /> 247.5 </td>
+        <td id="181.5table" class = "td"><br /> 181.5 </td>
+        <td id="231table" class = "td"><br /> 231 </td>
+        <td id="198table" class = "td"><br /> 198 </td>
+        <td id="264table" class = "td"><br /> 264 </td>
+        <td id="165table" class = "td"><br /> 165 </td>
+        <td id="148.5table" class = "td"><br /> 148.5 </td>
+        <td id="214.5table" class = "td"><br /> 214.5 </td>
+        <td id="140.25table" class = "td"><br /> 140.25 </td>
+        <td id="blankq" class = "td"><br /> blankq </td>
+        <td id="blankshift" class = "td"><br /> blankshift </td>
+        <td id="blankshift2" class = "td"><br /> blankshift2 </td>
+        <td id="blankshift3" class = "td"><br /> blankshift3 </td>
+      </tr>
+      <tr valign="top">
+        <td id="blankfn" class = "td"><br /> blankfn </td>
+        <td id="115.5table" class = "td"><br /> 115.5 </td>
+        <td id="82.5table" class = "td"><br /> 82.5 </td>
+        <td id="99table" class = "td"><br /> 99 </td>
+        <td id="132blank" class = "td"><br /> 132blank </td>
+        <td id="132blank2" class = "td"><br /> 132blank2 </td>
+        <td id="132table" class = "td"><br /> 132 </td>
+        <td id="132blank3" class = "td"><br /> 132blank3 </td>
+        <td id="132blank4" class = "td"><br /> 132blank4 </td>
+        <td id="99table" class = "td"><br /> 99 </td>
+        <td id="82.5table" class = "td"><br /> 82.5 </td>
+        <td id="74.25table" class = "td"><br /> 74.25 </td>
+        <td id="90.75table" class = "td"><br /> 90.75 </td>
+        <td id="107.25table" class = "td"><br /> 107.25 </td>
+        <td id="123.75table" class = "td"><br /> 123.75 </td>
+
       </tr>
     </table>
   </div>
 
-  <audio src="tones/solfeg/528.wav"  id="528"></audio><p id= "528text"></p><br>
+  <audio src="tones/1/1782.wav"  id="1782"></audio><p id= "1782text"></p><br>
+  <audio src="tones/1/1518.wav"  id="1518"></audio><p id= "1518text"></p><br>
+  <audio src="tones/1/1254.wav"  id="1254"></audio><p id= "1254text"></p><br>
+  <audio src="tones/1/1980.wav"  id="1980"></audio><p id= "1980text"></p><br>
+  <audio src="tones/1/1452.wav"  id="1452"></audio><p id= "1452text"></p><br>
+  <audio src="tones/1/1848.wav"  id="1848"></audio><p id= "1848text"></p><br>
+  <audio src="tones/1/1584.wav"  id="1584"></audio><p id= "1584text"></p><br>
+  <audio src="tones/1/2112.wav"  id="2112"></audio><p id= "2112text"></p><br>
+  <audio src="tones/1/1320.wav"  id="1320"></audio><p id= "1320text"></p><br>
+  <audio src="tones/1/1188.wav"  id="1188"></audio><p id= "1188text"></p><br>
+  <audio src="tones/1/1716.wav"  id="1716"></audio><p id= "1716text"></p><br>
+  <audio src="tones/1/1122.wav"  id="1122"></audio><p id= "1122text"></p><br>
+  <audio src="tones/1/1386.wav"  id="1386"></audio><p id= "1386text"></p><br>
+  <audio src="tones/1/1650.wav"  id="1650"></audio><p id= "1650text"></p><br>
 
-  <audio src="tones/twos/264.wav"  id="264"></audio><p id= "264text"></p><br>
+  <audio src="tones/1/627.wav"  id="627"></audio><p id= "627text"></p><br>
+  <audio src="tones/1/990.wav"  id="990"></audio><p id= "990text"></p><br>
+  <audio src="tones/1/726.wav"  id="726"></audio><p id= "726text"></p><br>
+  <audio src="tones/1/924.wav"  id="924"></audio><p id= "924text"></p><br>
+  <audio src="tones/1/792.wav"  id="792"></audio><p id= "792text"></p><br>
+  <audio src="tones/1/1056.wav"  id="1056"></audio><p id= "1056text"></p><br>
+  <audio src="tones/1/660.wav"  id="660"></audio><p id= "660text"></p><br>
+  <audio src="tones/1/594.wav"  id="594"></audio><p id= "594text"></p><br>
+  <audio src="tones/1/858.wav"  id="858"></audio><p id= "858text"></p><br>
+  <audio src="tones/1/561.wav"  id="561"></audio><p id= "561text"></p><br>
+  <audio src="tones/1/693.wav"  id="693"></audio><p id= "693text"></p><br>
+  <audio src="tones/1/759.wav"  id="759"></audio><p id= "759text"></p><br>
+
+  <audio src="tones/1/313.5.wav"  id="313.5"></audio><p id= "313.5text"></p><br>
+  <audio src="tones/1/495.wav"  id="495"></audio><p id= "495text"></p><br>
+  <audio src="tones/1/363.wav"  id="363"></audio><p id= "363text"></p><br>
+  <audio src="tones/1/462.wav"  id="462"></audio><p id= "462text"></p><br>
+  <audio src="tones/1/396.wav"  id="396"></audio><p id= "396text"></p><br>
+  <audio src="tones/1/528.wav"  id="528"></audio><p id= "528text"></p><br>
+  <audio src="tones/1/330.wav"  id="330"></audio><p id= "330text"></p><br>
+  <audio src="tones/1/297.wav"  id="297"></audio><p id= "297text"></p><br>
+  <audio src="tones/1/429.wav"  id="429"></audio><p id= "429text"></p><br>
+  <audio src="tones/1/280.5.wav"  id="280.5"></audio><p id= "280.5text"></p><br>
+  <audio src="tones/1/346.5.wav"  id="346.5"></audio><p id= "346.5text"></p><br>
+  <audio src="tones/1/379.5.wav"  id="379.5"></audio><p id= "379.5text"></p><br>
+
+  <audio src="tones/1/156.75.wav"  id="156.75"></audio><p id= "156.75text"></p><br>
+  <audio src="tones/1/247.5.wav"  id="247.5"></audio><p id= "247.5text"></p><br>
+  <audio src="tones/1/181.5.wav"  id="181.5"></audio><p id= "181.5text"></p><br>
+  <audio src="tones/1/231.wav"  id="231"></audio><p id= "231text"></p><br>
+  <audio src="tones/1/198.wav"  id="198"></audio><p id= "198text"></p><br>
+  <audio src="tones/1/264.wav"  id="264"></audio><p id= "264text"></p><br>
+  <audio src="tones/1/165.wav"  id="165"></audio><p id= "165text"></p><br>
+  <audio src="tones/1/148.5.wav"  id="148.5"></audio><p id= "148.5text"></p><br>
+  <audio src="tones/1/214.5.wav"  id="214.5"></audio><p id= "214.5text"></p><br>
+  <audio src="tones/1/140.25.wav"  id="140.25"></audio><p id= "140.25text"></p><br>
+
+  <audio src="tones/1/115.5.wav"  id="115.5"></audio><p id= "115.5text"></p><br>
+  <audio src="tones/1/82.5.wav"  id="82.5"></audio><p id= "82.5text"></p><br>
+  <audio src="tones/1/99.wav"  id="99"></audio><p id= "99text"></p><br>
+  <audio src="tones/1/132.wav"  id="132"></audio><p id= "132text"></p><br>
+  <audio src="tones/1/74.25.wav"  id="74.25"></audio><p id= "74.25text"></p><br>
+  <audio src="tones/1/90.75.wav"  id="90.75"></audio><p id= "90.75text"></p><br>
+  <audio src="tones/1/107.25.wav"  id="107.25"></audio><p id= "107.25text"></p><br>
+  <audio src="tones/1/125.75.wav"  id="125.75"></audio><p id= "125.75text"></p><br>
 
   </body>
 
